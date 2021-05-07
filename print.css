@@ -1,0 +1,33 @@
+/*CSS para impressão*/
+@media print {
+    .container {
+        max-width: 2480px;
+        align-content: center;
+        margin-top: 16px !important;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .left-column {
+        width: 40%;
+        float: left;
+    }
+    
+    .card-list {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+    }
+    
+    .icone {
+        color: rgb(12, 158, 243);
+        margin-right: 14px !important;
+        font-size: 14px !important;
+    }
+    
+    .right-column {
+        padding: 0 8px;
+        float: left;
+        width: 60%;
+    }
+}
